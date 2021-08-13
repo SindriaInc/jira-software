@@ -1,6 +1,6 @@
 # Docs
 
-## Requirements
+## Index
 
 - [Requirements](requirements.md)
 
