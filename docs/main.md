@@ -2,6 +2,9 @@
 
 ## Requirements
 
-[Requirements](requirements.md)
+- [Requirements](requirements.md)
+
+- [Setup](setup.md)
+
 
 
