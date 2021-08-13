@@ -2,6 +2,6 @@
 
 ## Requirements
 
-[Requirements](docs/requirements.md)
+[Requirements](requirements.md)
 
 
