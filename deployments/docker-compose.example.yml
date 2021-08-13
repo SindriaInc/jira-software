@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:
+  # =jira
+  jira:
+    image: "atlassian/jira-software:latest"
+    container_name: "${APP_NAME}"
+    #command: tail -f /dev/null
+    #user: sindria
+    hostname: "${APP_NAME}.local"
+    #ports:
+    #  - "8080:8080"
+    networks:
+      default:
+        ipv4_address: "${XDEV_IP_ADDRESS}"
+        aliases:
+          - "${APP_NAME}.local"
+
+# =networks
+networks:
+  default:
+    name: "vpc_${APP_NAME}"
+    driver: bridge
+    ipam:
+      config:
+        - subnet: ${NETWORK_SUBNET}
