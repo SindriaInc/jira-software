@@ -12,7 +12,7 @@ services:
     #  - "8080:8080"
     networks:
       default:
-        ipv4_address: "${XDEV_IP_ADDRESS}"
+        ipv4_address: "${JIRA_IP_ADDRESS}"
         aliases:
           - "${APP_NAME}.local"
 
