@@ -10,4 +10,4 @@
 - Setup file env: `cp .env.example .env`
 - Setup Docker Compose `cp docker-compose.example.yml docker-compose.yml`
 - Run: `docker-compose up -d`
-- Url: [http://localhost](http://localhost)
+- Url: [http://localhost:8080](http://localhost:8080)
